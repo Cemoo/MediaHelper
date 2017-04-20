@@ -11,7 +11,7 @@ import UIKit
 import AVKit
 import AVFoundation
 
-class VideoHelper: NSObject {
+class VideoHelper: SessionHelper {
     
     fileprivate var previewLayer: AVCaptureVideoPreviewLayer!
     fileprivate var cameraSession: AVCaptureSession!

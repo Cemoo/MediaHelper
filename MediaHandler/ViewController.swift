@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         pictureHelper.takePicture(self)
     }
     @IBAction func btnCaptureVideoWithDefaultCameraAction(_ sender: Any) {
+        pictureHelper.takePicture(self)
     }
     @IBAction func btnCaptureVideoWithCustomCameraAction(_ sender: Any) {
         cameraLayer = videoHelper.createVideoView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 414.0), sessionPreset.high)
