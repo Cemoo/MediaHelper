@@ -43,7 +43,7 @@ class SessionHelper: NSObject, URLSessionTaskDelegate {
     
     public func getImage() -> UIImage? {
         let fileManager = FileManager.default
-        let imagePAth = (self.getDirectoryPath() as NSString).appendingPathComponent("apple.jpg")
+        let imagePAth = (self.getDirectoryPath() as NSString).appendingPathComponent("pickedImage.jpg")
         if fileManager.fileExists(atPath: imagePAth){
             return UIImage(contentsOfFile: imagePAth)
         }else{
