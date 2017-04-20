@@ -13,6 +13,7 @@
 		996381FF1E94CEF5008EBED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996381FE1E94CEF5008EBED9 /* Assets.xcassets */; };
 		996382021E94CEF5008EBED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996382001E94CEF5008EBED9 /* LaunchScreen.storyboard */; };
 		9963820A1E94CF8B008EBED9 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996382091E94CF8B008EBED9 /* VideoHelper.swift */; };
+		99AC1A591EA8A8E0005FC79A /* SessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC1A581EA8A8E0005FC79A /* SessionHelper.swift */; };
 		99E598BD1E952D54004FE048 /* PictureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E598BC1E952D54004FE048 /* PictureHelper.swift */; };
 		99E598C21E952E1A004FE048 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E598C11E952E1A004FE048 /* Structures.swift */; };
 		99E598C41E952E6D004FE048 /* AudioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E598C31E952E6D004FE048 /* AudioHelper.swift */; };
@@ -27,6 +28,7 @@
 		996382011E94CEF5008EBED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996382031E94CEF5008EBED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996382091E94CF8B008EBED9 /* VideoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		99AC1A581EA8A8E0005FC79A /* SessionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionHelper.swift; sourceTree = "<group>"; };
 		99E598BC1E952D54004FE048 /* PictureHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureHelper.swift; sourceTree = "<group>"; };
 		99E598C11E952E1A004FE048 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		99E598C31E952E6D004FE048 /* AudioHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHelper.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				996382091E94CF8B008EBED9 /* VideoHelper.swift */,
 				99E598BC1E952D54004FE048 /* PictureHelper.swift */,
 				99E598C31E952E6D004FE048 /* AudioHelper.swift */,
+				99AC1A581EA8A8E0005FC79A /* SessionHelper.swift */,
 			);
 			name = MediaHelper;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E598C41E952E6D004FE048 /* AudioHelper.swift in Sources */,
+				99AC1A591EA8A8E0005FC79A /* SessionHelper.swift in Sources */,
 				99E598C21E952E1A004FE048 /* Structures.swift in Sources */,
 				996381FA1E94CEF5008EBED9 /* ViewController.swift in Sources */,
 				9963820A1E94CF8B008EBED9 /* VideoHelper.swift in Sources */,
