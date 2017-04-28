@@ -9,6 +9,7 @@
 import Foundation
 import AVFoundation
 import AssetsLibrary
+import UIKit
 
 class SessionHelper: NSObject, URLSessionTaskDelegate {
     
