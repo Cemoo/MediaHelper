@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         } else {
             audioHelper.startAudioRecorder()
             audioHelper.isAudioRecording = true
+            
         }
     }
     @IBAction func btnPlayAudioAction(_ sender: Any) {
